@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 
 namespace IceProgrammingTest {
-    internal class SourceTreeViewItems : IEnumerable<TreeViewItem>, INotifyPropertyChanged {
+    public class SourceTreeViewItems : IEnumerable<TreeViewItem>, INotifyPropertyChanged {
         private readonly AvailableSources _availableSources;
         private readonly Action<CheckBox> _checkedFn;
 

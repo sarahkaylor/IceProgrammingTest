@@ -3,14 +3,13 @@ using PricingSourcesInterfaces;
 
 namespace IceProgrammingTest
 {
-    internal class AvailableSources
-    {
+    public class AvailableSources {
         public IEnumerable<AvailableSource> GetAvailableSources() {
             yield return new AvailableSource("NYSE", new NyseSimulatedPricingSource.PricingSourceFactory());
         } 
     }
 
-    internal class AvailableSource {
+    public class AvailableSource {
         public AvailableSource(string name, IPricingSourceFactory factory) {
             Factory = factory;
             Name = name;
