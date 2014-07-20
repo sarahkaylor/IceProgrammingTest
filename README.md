@@ -6,3 +6,8 @@ README
 - The data source will provide updates every 10 seconds for about 1 minute after the program launches.
 
 
+Compiling
+=========
+
+- This program was developed in Visual Studio 2013 using .NET 4.5. The application targets 64-bit.
+
